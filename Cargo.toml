@@ -1,0 +1,16 @@
+[package]
+name = "enum-ffi-newtype"
+version = "0.0.0"
+description = ""
+keywords = ["proc_macro", "procmacro", "enum", "ffi", "safe-ffi"]
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1"
+proc-macro2 = "1.0"
+syn = { version = "2.0.96", features = ["full"] }
+darling = "0.20.10"
+
